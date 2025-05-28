@@ -1,0 +1,25 @@
+# Игнорировать виртуальные окружения
+venv/
+env/
+.env/
+
+# Игнорировать файлы IDE и редакторов
+.vscode/
+.idea/
+*.swp
+
+# Игнорировать кеши Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Docker файлы
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Тестовые каталоги и файлы
+tests/
+*.test.py
+
